@@ -1,3 +1,4 @@
+const fs = require("fs");
 const isProd = process.env.NODE_ENV === "production";
 
 module.exports = {
@@ -15,4 +16,9 @@ module.exports = {
   //! CSS and JS with the trailingSlash
   assetPrefix: isProd ? "PUT_SITE_URL_HERE" : "",
   trailingSlash: true,
+
+  // This adds the _headers file after npm run build
+  async afterBuild({ utils }) {
+    await fs.copy("_headers", ".next/_headers");
+  },
 };
