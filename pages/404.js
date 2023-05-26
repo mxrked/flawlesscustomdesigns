@@ -10,9 +10,9 @@ import { TriggerExitAnimations } from "@/assets/functions/dom/triggers/TriggerEx
 // Component Imports
 import { PageHead } from "@/assets/components/global/All/PageHead";
 
-import styles from "../assets/styles/modules/Index/Index.module.css";
+import styles from "../assets/styles/modules/404/404.module.css";
 
-export default function Home() {
+export default function NotFound() {
   const router = useRouter();
 
   // Triggering exit animations
@@ -21,7 +21,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div id="PAGE" className="page overrides_Index full-second">
+    <div id="PAGE" className="page overrides_404 full-second">
       <PageHead />
 
       <main id="PAGE_CNT"></main>
