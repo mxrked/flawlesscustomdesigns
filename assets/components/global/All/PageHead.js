@@ -9,6 +9,7 @@ import { useRouter } from "next/router";
 import Head from "next/head";
 
 import { SITE_KWS } from "@/assets/data/variables/ARRAYS";
+import { ATI, FAVICON, FAVICON_16, FAVICON_32 } from "@/assets/cdns/CDNIcons";
 
 export const PageHead = () => {
   const router = useRouter();
@@ -68,27 +69,10 @@ export const PageHead = () => {
 
       <link rel="canonical" href={url} />
 
-      <link
-        rel="shortcut icon"
-        href="https://raw.githubusercontent.com/mxrked/codingthefront_2023_CDN/master/icons/tab-icons/favicon.ico"
-      />
-      <link
-        rel="apple-touch-icon"
-        sizes="180x180"
-        href="https://raw.githubusercontent.com/mxrked/codingthefront_2023_CDN/master/icons/tab-icons/apple-touch-icon.png"
-      />
-      <link
-        rel="icon"
-        type="image/png"
-        sizes="32x32"
-        href="https://raw.githubusercontent.com/mxrked/codingthefront_2023_CDN/master/icons/tab-icons/favicon-32x32.png"
-      />
-      <link
-        rel="icon"
-        type="image/png"
-        sizes="16x16"
-        href="https://raw.githubusercontent.com/mxrked/codingthefront_2023_CDN/master/icons/tab-icons/favicon-16x16.png"
-      />
+      <link rel="shortcut icon" href={FAVICON} />
+      <link rel="apple-touch-icon" sizes="180x180" href={ATI} />
+      <link rel="icon" type="image/png" sizes="32x32" href={FAVICON_32} />
+      <link rel="icon" type="image/png" sizes="16x16" href={FAVICON_16} />
     </Head>
   );
 };
