@@ -1,1 +1,16 @@
-/*# sourceMappingURL=Footer.module.css.map */
+@font-face {
+  font-family: "N Black";
+  src: url("../../../fonts/N_Black.ttf");
+}
+@font-face {
+  font-family: "N Bold";
+  src: url("../../../fonts/N_Bold.ttf");
+}
+@font-face {
+  font-family: "N Medium";
+  src: url("../../../fonts/N_Medium.ttf");
+}
+@font-face {
+  font-family: "N Regular";
+  src: url("../../../fonts/N_Regular.ttf");
+}/*# sourceMappingURL=Footer.module.css.map */
