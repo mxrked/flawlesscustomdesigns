@@ -4,7 +4,7 @@ const SITEMAP = require("nextjs-sitemap-generator");
 const PATH = require("path");
 
 SITEMAP({
-  baseUrl: "rtsyvisuals.com",
+  baseUrl: "flawlesscustomdesign.com",
   pagesDirectory: PATH.resolve(__dirname, "../out/"),
   targetDirectory: PATH.resolve(__dirname, "../out/"),
   ignoredExtensions: [
@@ -19,5 +19,5 @@ SITEMAP({
     "icon",
   ],
   ignoredPaths: ["404"],
-  extraPaths: ["/", "/projects", "/contact", "/info"],
+  extraPaths: ["/"],
 });
