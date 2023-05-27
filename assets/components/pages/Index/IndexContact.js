@@ -20,7 +20,7 @@ import TriggerInViewMotion from "@/assets/functions/dom/triggers/TriggerInViewMo
 
 import styles from "../../../styles/modules/Index/Index.module.css";
 
-export const IndexTop = () => {
+export const IndexContact = () => {
   const router = useRouter();
 
   //! Framer Motion Detect InView
