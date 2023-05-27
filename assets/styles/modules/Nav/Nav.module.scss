@@ -22,6 +22,109 @@
 }
 
 // Desktop
+.desktop_nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  .desktop_nav_inner {
+    max-width: 1300px;
+    @include quickCenter("relative");
+    padding-left: 30px;
+    padding-right: 30px;
+
+    .desktop_nav_inner_box {
+      .desktop_nav_inner_row {
+        .desktop_nav_inner_side {
+          height: 140px;
+          display: flex;
+          align-items: center;
+        }
+
+        .desktop_nav_L {
+          justify-content: flex-start;
+
+          .desktop_nav_inner_side_cnt {
+            .logo {
+              cursor: default;
+
+              h1 {
+                font-family: "N Black";
+                font-size: 31px;
+                color: ghostwhite;
+
+                span {
+                  color: $Lavander;
+                }
+              }
+            }
+          }
+        }
+
+        .desktop_nav_R {
+          justify-content: flex-end;
+
+          .desktop_nav_inner_side_cnt {
+            width: 100%;
+            max-width: 340px;
+
+            ul {
+              width: 100%;
+              @include displayElement(flex, space-between, center);
+              font-family: "N Bold";
+
+              li {
+                a {
+                  text-align: center;
+                  font-size: $Link;
+                  text-decoration: none;
+                  position: relative;
+
+                  &:hover {
+                    span,
+                    .icon {
+                      color: $Studio;
+                    }
+
+                    .icon {
+                      animation: mUD 1s linear infinite;
+                    }
+                  }
+
+                  @keyframes mUD {
+                    0%,
+                    100% {
+                      bottom: -18px;
+                    }
+                    50% {
+                      bottom: -21px;
+                    }
+                  }
+
+                  span {
+                    display: block;
+                    color: ghostwhite;
+                  }
+
+                  .icon {
+                    display: block;
+                    text-align: center;
+                    @include quickCenter("relative");
+                    color: ghostwhite;
+                    position: absolute;
+                    left: 50%;
+                    transform: translateX(-50%);
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
 
 // Responsive
 @media all and (max-width: 1995px) {

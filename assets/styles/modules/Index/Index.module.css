@@ -13,4 +13,10 @@
 @font-face {
   font-family: "N Regular";
   src: url("../../../fonts/N_Regular.ttf");
+}
+.index_top {
+  height: 1000px;
+}
+.index_top .bg {
+  height: 1000px !important;
 }/*# sourceMappingURL=Index.module.css.map */
