@@ -24,6 +24,10 @@ import {
   GI_14,
   GI_15,
   GI_16,
+  GI_17,
+  GI_18,
+  GI_19,
+  GI_20,
 } from "../variables/OBJECTS";
 
 const SITE_KWS = [
@@ -72,6 +76,10 @@ const GALLERY_ITEMS = [
   GI_14,
   GI_15,
   GI_16,
+  GI_17,
+  GI_18,
+  GI_19,
+  GI_20,
 ];
 
 export { SITE_KWS, FADES, GALLERY_ITEMS };

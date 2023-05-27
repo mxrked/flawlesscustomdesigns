@@ -65,6 +65,22 @@ const GI_16 = new GalleryItem(
   16,
   "https://raw.githubusercontent.com/mxrked/flawlesscustomdesigns_CDN/main/imgs/products/product%20(16).webp"
 );
+const GI_17 = new GalleryItem(
+  17,
+  "https://raw.githubusercontent.com/mxrked/flawlesscustomdesigns_CDN/main/imgs/products/product%20(17).webp"
+);
+const GI_18 = new GalleryItem(
+  18,
+  "https://raw.githubusercontent.com/mxrked/flawlesscustomdesigns_CDN/main/imgs/products/product%20(18).webp"
+);
+const GI_19 = new GalleryItem(
+  19,
+  "https://raw.githubusercontent.com/mxrked/flawlesscustomdesigns_CDN/main/imgs/products/product%20(19).webp"
+);
+const GI_20 = new GalleryItem(
+  20,
+  "https://raw.githubusercontent.com/mxrked/flawlesscustomdesigns_CDN/main/imgs/products/product%20(20).webp"
+);
 
 export {
   GI_1,
@@ -83,4 +99,8 @@ export {
   GI_7,
   GI_8,
   GI_9,
+  GI_17,
+  GI_18,
+  GI_19,
+  GI_20,
 };
