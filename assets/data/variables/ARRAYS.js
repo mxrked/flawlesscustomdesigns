@@ -7,6 +7,24 @@ import {
   FADE_DOWN,
   FADE_UP,
 } from "@/assets/animations/FADES";
+import {
+  GI_1,
+  GI_2,
+  GI_3,
+  GI_4,
+  GI_5,
+  GI_6,
+  GI_7,
+  GI_8,
+  GI_9,
+  GI_10,
+  GI_11,
+  GI_12,
+  GI_13,
+  GI_14,
+  GI_15,
+  GI_16,
+} from "../variables/OBJECTS";
 
 const SITE_KWS = [
   "flawlesscustomdesigns",
@@ -37,4 +55,23 @@ const SITE_KWS = [
 
 const FADES = [FADE_IN, FADE_LEFT, FADE_RIGHT, FADE_UP, FADE_DOWN];
 
-export { SITE_KWS, FADES };
+const GALLERY_ITEMS = [
+  GI_1,
+  GI_2,
+  GI_3,
+  GI_4,
+  GI_5,
+  GI_6,
+  GI_7,
+  GI_8,
+  GI_9,
+  GI_10,
+  GI_11,
+  GI_12,
+  GI_13,
+  GI_14,
+  GI_15,
+  GI_16,
+];
+
+export { SITE_KWS, FADES, GALLERY_ITEMS };
