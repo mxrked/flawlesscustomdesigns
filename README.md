@@ -12,7 +12,7 @@ This is the website for Flawless Custom Designs
 
 ---
 
-Demo: [PUT_SITE_URL_HERE](https://flawlesscustomdesign.com/)
+Demo: [[PUT_SITE_URL_HERE](https://flawlesscustomdesign.com/)](https://flawlesscustomdesign.com/)
 
 ===
 
